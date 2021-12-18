@@ -1,0 +1,283 @@
+
+.header-container-choix-specialite-page{
+
+  /*
+  border: 1px dotted blue;
+  */
+  width: 90%;
+}
+
+.header-container-main-page{
+  /*
+  border: 1px dotted blue;
+  */
+  width: 80%;
+
+}
+
+@media (min-width: 767px) {
+
+  .header-container-main-page{
+    /*
+    border: 1px dotted blue;
+    */
+    width: 100%;
+  }
+
+}
+
+.header-section {
+
+  padding: 2%;
+  /*
+  border: 1px dotted blue;
+  */
+}
+
+.pink-theme:hover {
+
+  background-color: #CC105F;
+  color: #f9f9D7;
+  text-decoration: none;
+}
+
+@media (max-width: 766px) {
+
+  .display-tablette{
+
+    display: none;
+  }
+
+}
+
+@media (min-width: 767px) {
+
+  .header-container-main-page{
+
+    /*
+    border: 1px dotted blue;
+    */
+    width: 100%;
+  }
+
+  .display-tablette {
+    display: inline;
+    color: #f9f9D7;
+  }
+
+}
+
+.main-title-section {
+
+  width: 100%;
+}
+
+.main-title-section-article {
+  width: 100;
+}
+
+
+
+
+
+.i-fa-home {
+
+  color: #f9f9D7;
+  font-size: 3rem;
+}
+
+
+
+.i-fa-user {
+
+  color: #f9f9D7;
+  font-size: 2.8125rem;
+}
+
+
+.i-fa-sign-in-alt {
+
+  color: #f9f9D7;
+  font-size: 2.8125rem;
+}
+
+
+.header-link {
+
+  color: #f9f9D7;
+  background-color: #E65E97;
+  height: auto;
+  text-align: center;
+  padding: none;
+  border-radius: 0.625rem;
+  border-color: transparent;
+  box-shadow: 0.25rem 0.3125rem 0.375rem black;
+  /*
+  border: 3px dotted blue;
+  */
+}
+
+
+h1 {
+
+  font-size: 1.688rem;
+  text-align: center;
+}
+
+h2 {
+
+  color: #E65E97;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+@media (min-width: 767px) {
+
+  .header-container-main-page{
+    /*
+      border: 1px dotted blue;
+    */
+    width: 100%;
+  }
+
+  .display-tablette {
+    display: inline;
+    color: #f9f9D7;
+  }
+
+  .header-link  {
+    margin-bottom: 1.063rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .form-width-responsive {
+    width: 80%;
+  }
+
+}
+
+
+article.row {
+  /*
+ border: 1px solid green;
+ */
+}
+
+@media (min-width: 990px) {
+
+
+
+  .form-width-responsive {
+    width: 80%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}
+
+
+
+.form-width-responsive {
+  margin: auto;
+  /*
+    border: 1px dotted blue;
+  */
+  width: 80%;
+  background-color: rgba(0,0,0,0.5) !important;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 11%;
+}
+
+
+
+
+/********************************************************************/
+
+
+
+
+i.fa-google:hover {
+
+  color: #BB001B !important;
+}
+
+i.fa-windows:hover {    color: #008AD7 !important;
+}
+
+.social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.social_icon span:hover{
+  color: white;
+  cursor: pointer;
+}
+
+
+.white-color-for-theme {
+  color: white;
+}
+
+.input-group-prepend span{
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border:0 !important;
+}
+
+
+
+
+.login_btn{
+  color: white;
+  background-color: #CC105F;
+  width: 100px;
+}
+
+.login_btn:hover{
+
+  background-color: #E65E97;
+  color: #f9f9D7;
+  text-decoration: none;
+}
+
+.button-connexion-annuler {
+  background-color: rgba(0,0,0,0.7) !important;
+  color: white;
+}
+
+.button-connexion-annuler:hover{
+
+  background-color: #E65E97 !important;
+  color: #f9f9D7;
+  text-decoration: none;
+}
+
+.links{
+  color: white;
+}
+
+.links a{
+  margin-left: 4px;
+}
+
+.style_div_form_group {
+
+  margin-top: 10% !important;
+}
+
+/*************/  /********************/  /**********************/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+  background-color: #CC105F;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
