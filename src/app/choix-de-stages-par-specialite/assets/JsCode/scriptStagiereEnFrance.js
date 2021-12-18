@@ -1,0 +1,2 @@
+
+// alert("Life is good !!");
